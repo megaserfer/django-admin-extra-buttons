@@ -2,11 +2,9 @@
 import ast
 import codecs
 import os
-import sys
 
 import re
 from setuptools import find_packages, setup
-from setuptools.command.test import test as TestCommand
 
 ROOT = os.path.realpath(os.path.join(os.path.dirname(__file__)))
 init = os.path.join(ROOT, 'src', 'admin_extra_buttons', '__init__.py')
